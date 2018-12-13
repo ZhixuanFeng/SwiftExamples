@@ -14,6 +14,8 @@
 		E112C56321C1937300BD045C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E112C56121C1937300BD045C /* LaunchScreen.storyboard */; };
 		E112C56E21C1937400BD045C /* FunctionalityExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112C56D21C1937400BD045C /* FunctionalityExamplesTests.swift */; };
 		E112C57921C1937400BD045C /* FunctionalityExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112C57821C1937400BD045C /* FunctionalityExamplesUITests.swift */; };
+		E112C58921C1BDC300BD045C /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112C58721C1BDC300BD045C /* ColorCollectionViewCell.swift */; };
+		E112C58A21C1BDC300BD045C /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E112C58821C1BDC300BD045C /* ColorCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E112C57421C1937400BD045C /* FunctionalityExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalityExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E112C57821C1937400BD045C /* FunctionalityExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalityExamplesUITests.swift; sourceTree = "<group>"; };
 		E112C57A21C1937400BD045C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E112C58721C1BDC300BD045C /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		E112C58821C1BDC300BD045C /* ColorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		E112C55721C1937000BD045C /* FunctionalityExamples */ = {
 			isa = PBXGroup;
 			children = (
+				E112C58621C1BD5500BD045C /* Custom Cell */,
 				E112C55821C1937000BD045C /* AppDelegate.swift */,
 				E112C55A21C1937000BD045C /* ViewController.swift */,
 				E112C55C21C1937000BD045C /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				E112C57A21C1937400BD045C /* Info.plist */,
 			);
 			path = FunctionalityExamplesUITests;
+			sourceTree = "<group>";
+		};
+		E112C58621C1BD5500BD045C /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E112C58721C1BDC300BD045C /* ColorCollectionViewCell.swift */,
+				E112C58821C1BDC300BD045C /* ColorCollectionViewCell.xib */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			files = (
 				E112C56321C1937300BD045C /* LaunchScreen.storyboard in Resources */,
 				E112C56021C1937300BD045C /* Assets.xcassets in Resources */,
+				E112C58A21C1BDC300BD045C /* ColorCollectionViewCell.xib in Resources */,
 				E112C55E21C1937000BD045C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E112C58921C1BDC300BD045C /* ColorCollectionViewCell.swift in Sources */,
 				E112C55B21C1937000BD045C /* ViewController.swift in Sources */,
 				E112C55921C1937000BD045C /* AppDelegate.swift in Sources */,
 			);
